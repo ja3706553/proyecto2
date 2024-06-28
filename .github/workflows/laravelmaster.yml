@@ -1,10 +1,10 @@
-name: Laravel
+name: Laravelmaster
 
 on:
   push:
-    branches: [ "hotfix" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "hotfix" ]
+    branches: [ "master" ]
 
 jobs:
   laravel-tests:
